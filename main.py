@@ -96,6 +96,7 @@ def reset_game(entry=None):
     global TOTAL_TIME
     global WORD_LIST
     global RUNNING
+    global LETTERS
 
     SCORE = 0
     TOTAL_TIME = 60
