@@ -8,5 +8,5 @@ cd Type
 
 2. Run w/ Python  
 ```
-py main.py
+python main.py
 ```
