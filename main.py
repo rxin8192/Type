@@ -100,6 +100,7 @@ def reset_game(entry=None):
     SCORE = 0
     TOTAL_TIME = 60
     WORD_LIST = get_first_words()
+    LETTERS = 0
 
     score.config(text=str(SCORE))
     timeLabel.config(text="Time Remaining: " + str(TOTAL_TIME))
