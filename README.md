@@ -1,4 +1,4 @@
-#### Type Test 
+#### Setup 
 
 1. Clone repo 
 ```
