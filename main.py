@@ -73,7 +73,7 @@ def add_score():
 
     if entry.get()[0:-1] == WORD_LIST[0]:
         SCORE += 1
-        LETTERS += len(WORD_LIST[0])
+        LETTERS = LETTERS + len(WORD_LIST[0]) + 1
         score.config(text="Score: " + str(SCORE))
     clear_entry()
 
